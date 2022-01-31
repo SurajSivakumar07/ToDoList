@@ -48,7 +48,7 @@ inputEl.addEventListener("keypress",function(e){
         listField.appendChild(todoDiv)
     }
 })
-
+//Removing a list
 listField.addEventListener("click",function(e){
     const item=e.target
     if(item.classList[0]==="trash"){
