@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(32, 32, 92);
+}
+.inputfield{
+    text-align: center;
+
+}
+
+#input{
+    padding: 10px;
+    border: none;
+    border-radius: 2mm;
+    font-family:monospace;
+}
+#click{
+    border: none;
+    border-radius: 2mm;
+    padding: 10px;
+    font-family:monospace;
+    background-color: rgb(219, 216, 216);
+}
+.todo{
+    background-color: white;
+    border: solid blue;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 500px;
+    margin: 0 auto;
+    font-family:monospace;
+    text-align: center;
+    padding-top: 10px;
+    margin-top :10px;
+
+}
+.todo li{
+    flex: 1;
+}
+.complete,.trash{
+    background-color: blueviolet;
+    font-size: 20px;
+    margin: 10px;
+}
+.Completed{
+    text-decoration:dashed;
+    opacity: 0.5;
+}
+.fa-check,.fa-trash{
+    pointer-events: none;
+}
+.fall{
+    transform:translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
